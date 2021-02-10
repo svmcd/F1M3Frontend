@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;    
+    background-color: #121212;
+    color: white;
+    color: #e5ddff;
+    font-size: 95%;
+}
+
+#titel {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons {
+    height: 1.4em;
+}
+
+.rij {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rij:nth-child(odd) {
+    background-color: #090909;
+}
+
+.rij>div {
+    padding: .5em 1em;
+    display: flex;
+    align-items: center;
+}
+
+#uitvoerKop {
+    display: flex;
+    font-weight: 700;
+    justify-content: space-around;
+    padding-bottom: 1em;
+}
+
+.tijd {
+    margin-right: 5em;
+}
+
+
+
+
