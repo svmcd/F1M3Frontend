@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+body {
+    background: #080808;
+    font-family: 'DotGothic16', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+#dashboard {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 100px 1fr 100px;    
+}
+
+#dashboard > div {
+    background-color: #9f8b92;
+    padding: 5px 10px;
+    color: black;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    background-color: crimson;
+    background-color: crimson;
+    padding: 5px 10px;
+    color: #ffffff;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+.header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+

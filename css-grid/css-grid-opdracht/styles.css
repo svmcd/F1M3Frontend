@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+body {
+    background: white;
+    font-family: 'DotGothic16', sans-serif;
+    color: black;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+.dashboard {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.container {
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+    margin: 25px;
+}
+
+.vijf {
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+
+.zes {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.zeven {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.twaalf {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.dertien {
+    grid-column-start: 5;
+    grid-column-end: 7;
+}

@@ -1,5 +1,9 @@
 ## Frontend Programming
 
- - [Javascript objecten](http://samedpolat.nl/frontend-programming/js-objecten/index.html
+ - [Javascript objecten](http://samedpolat.nl/frontend-programming/js-objecten/index.html)
 
  - [JSON boeken](http://samedpolat.nl/frontend-programming/import-json/index.html)
+
+ - [Grid galerij](http://samedpolat.nl/frontend-programming/fotogalerij/index.html)
+ 
+ - [CSS grid](http://samedpolat.nl/frontend-programming/css-grid/css-grid-start/01.html)
