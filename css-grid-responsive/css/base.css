@@ -1,0 +1,71 @@
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
+body {
+    background: seagreen;
+    font-family: 'Sofia Pro', sans-serif;    
+    color: black;
+    font-size: 18px;
+}
+
+#dashboard {
+    height: 111vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 150px 250px 500px 200px;
+    grid-gap: 20px;
+    grid-template-areas: "header header" 
+                         "control1 control2"
+                         "kosten kosten"
+                         "weer weer"
+                         "grafiek grafiek";
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border: 1px solid #000000;
+    padding: 5px;
+    min-height: 50px;
+    font-size: 25px;
+}
+
+.header {
+    grid-area: header;
+}
+
+.weer {
+    grid-area: weer;
+}
+
+.control1 {
+    grid-area: control1;
+
+}
+
+.control2 {
+    grid-area: control2;
+
+}
+
+.kosten {
+    grid-area: kosten;
+
+}
+
+.grafiek {
+    grid-area: grafiek;
+
+}
+
+@media screen and (min-width: 900px) {
+    #dashboard {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 100px 200px 500px 250px;
+        grid-gap: 20px;
+        grid-template-areas: "header header header" 
+                             "weer control1 control2"
+                             "weer kosten kosten"
+                             "grafiek grafiek grafiek";
+    }
+}
