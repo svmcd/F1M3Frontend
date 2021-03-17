@@ -9,3 +9,6 @@
  - [CSS grid](http://samedpolat.nl/frontend-programming/css-grid/css-grid-start/01.html)
  
  - [CSS grid responsive](http://samedpolat.nl/frontend-programming/css-grid-responsive/index.html)
+
+ - [Data weergeven](http://samedpolat.nl/frontend-programming/data-weergeven/index.html)
+

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200&display=swap');
+
+:root {
+    --darkerer : #101010;
+    --darker: #131313;
+    --dark: #202020;
+    --green: #0b8e36;
+    --white: #ffffff;
+}
+
+::selection {
+    background: var(--green);
+}
+
+body {
+    margin: 0;
+    background: var(--darkerer);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 400px;
+    grid-template-rows: 400px;
+    grid-template-areas: "ap1"
+                         "ap2"
+                         "ap3" 
+                         "ap4";
+}
+
+.ap1 {
+    grid-area: ap1;
+}
+
+.ap2 {
+    grid-area: ap2;
+    
+}
+
+.ap3 {
+    grid-area: ap3;
+    
+}
+
+.ap4 {
+    grid-area: ap4;
+    
+}
+
+.apparaat {
+    padding: 25px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position: 2px center;
+    background-color: var(--dark);
+}
+
+.apparaat h1 {
+    color: var(--green);
+}
+
+.apparaat span {
+    color: var(--green);
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.apparaat button {
+    background-color: var(--green);
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+button:focus {outline:0;}
+
+
+.apparaat button:hover {
+    background-color: seagreen;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    cursor: pointer;
+    background: var(--green);
+    border-radius: 5px;
+    height: 10px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    margin-top: -.2em;
+    color: white;
+}
+
+@media screen and (min-width: 900px) {
+    .grid {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 400px 400px;
+        grid-template-rows: 350px 350px;
+        grid-template-areas: "ap1 ap2"
+                             "ap3 ap4";
+    }
+}

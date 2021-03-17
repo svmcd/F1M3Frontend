@@ -1,0 +1,30 @@
+[
+    {
+    "naam": "Smartphone",
+    "vermogen": 5,
+    "image": "images/smartphone.png",
+    "code": "PHO"
+    },
+    
+    {
+        "naam": "Laptop",
+        "vermogen": 45,
+        "image": "images/laptop.png",
+        "code": "LAP"
+    },
+
+    {
+        "naam": "Tablet",
+        "vermogen": 12,
+        "image": "images/tablet.png",
+        "code": "TAB"
+    },
+
+    {
+        "naam": "TV",
+        "vermogen": 35,
+        "image": "images/television.png",
+        "code": "TV"
+    }
+
+]
