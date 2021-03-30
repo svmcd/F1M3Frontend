@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>login</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <form action="login.php" method="POST">
+          <h1>Login</h1>
+          <input type="text" id="gebruikersnaam" name="gebruikersnaam" minlength="2" maxlength="10" placeholder="Gebruikersnaam*" required>
+          <input type="password" id="wachtwoord" name="wachtwoord" placeholder="Wachtwoord*" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+          <input type="submit" id="submit" name="submit" value="Login">
+        <a id="link" href="registreren.html">Ik heb nog geen account</a> 
+      </form>
+    </body>
+    <script src="script.js" async defer></script>
+</html>
